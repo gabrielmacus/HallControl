@@ -94,7 +94,7 @@ const data = [
         tag: "Pantalla"
     },
     {
-        name: "Cámara",
+        name: "Camara",
         config: {
             unmuted_strips: [],
             muted_strips: [],
