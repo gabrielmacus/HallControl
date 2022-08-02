@@ -59,7 +59,7 @@ const data = [
             unmuted_strips: [],
             muted_strips: [],
             obs_scene: "Pantalla",
-            cmd: 'nircmd win activate ititle "JW Library"'
+            cmd: "nircmd win activate ititle \"JW Library\""
         },
         tag: "Pantalla"
     },
@@ -69,7 +69,7 @@ const data = [
             unmuted_strips: [],
             muted_strips: [],
             obs_scene: "Pantalla",
-            cmd: 'nircmd win activate ititle "VLC"'
+            cmd: "nircmd win activate ititle \"VLC\""
         },
         tag: "Pantalla"
     },
@@ -79,7 +79,7 @@ const data = [
             unmuted_strips: [5],
             muted_strips: [0, 1, 2, 3, 5, 6, 7],
             obs_scene: "Pantalla",
-            cmd: 'nircmd win activate ititle "JW Library"'
+            cmd: "nircmd win activate ititle \"JW Library\""
         },
         tag: "Pantalla"
     },
@@ -89,16 +89,16 @@ const data = [
             unmuted_strips: [5],
             muted_strips: [0, 1, 2, 3, 5, 6, 7],
             obs_scene: "Pantalla",
-            cmd: 'nircmd win activate ititle "VLC"'
+            cmd: "nircmd win activate ititle \"VLC\""
         },
         tag: "Pantalla"
     },
     {
-        name: "Camara",
+        name: "Cámara",
         config: {
             unmuted_strips: [],
             muted_strips: [],
-            cmd: 'nircmd win activate ititle "Projector"'
+            cmd: "nircmd win activate ititle \"Projector\""
         },
         tag: "Pantalla"
     },
