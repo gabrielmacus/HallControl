@@ -29,7 +29,9 @@ export default () => {
                 obsServices.setCurrentScene(preset.config.obs_scene!);
 
             if (preset.config.cmd)
-                child_process.execSync(preset.config.cmd);
+                child_process.execSync(preset.config.cmd, {
+                    windowsHide:true
+                });
             //cmd.runSync(preset.config.cmd);
 
             return true;
